@@ -15,7 +15,7 @@ env:
 
 jobs:
   build:
-    runs-on: windows-2019
+    runs-on: windows-2022
     environment: General
 
     steps:
@@ -24,7 +24,7 @@ jobs:
           submodules: "recursive"
 
       - name: Add MSBuild to PATH
-        uses: microsoft/setup-msbuild@v1.1
+        uses: microsoft/setup-msbuild@v2
 
       - name: Build
         working-directory: ${{env.GITHUB_WORKSPACE}}
