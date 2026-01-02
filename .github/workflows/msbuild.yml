@@ -15,7 +15,7 @@ env:
 
 jobs:
   build:
-    runs-on: windows-2022
+    runs-on: windows-2019
     environment: General
 
     steps:
@@ -25,6 +25,14 @@ jobs:
 
       - name: Add MSBuild to PATH
         uses: microsoft/setup-msbuild@v2
+        with:
+          msbuild-architecture: x86
+          vs-prerelease: false
+
+      - name: Setup VS Dev Environment
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x86
 
       - name: Build
         working-directory: ${{env.GITHUB_WORKSPACE}}
