@@ -1,8 +1,8 @@
+# Oblivion Script Extender
+## Made compatible for Oblivion: Remastered
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/llde/xOBSE)](https://github.com/llde/xOBSE/releases/latest) [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/github/llde/xOBSE?branch=master&svg=true)](https://ci.appveyor.com/project/llde/xOBSE/branch/master)
-
-[![MSBuild](https://github.com/llde/xOBSE/actions/workflows/msbuild.yml/badge.svg?branch=master)](https://github.com/llde/xOBSE/actions/workflows/msbuild.yml)
-[![Release](https://github.com/llde/xOBSE/actions/workflows/msbuild-relz.yml/badge.svg?branch=master)](https://github.com/llde/xOBSE/actions/workflows/msbuild-relz.yml)
+[![MSBuild](https://github.com/llde/xOBSE/actions/workflows/msbuild.yml/badge.svg?branch=main)](https://github.com/llde/xOBSE/actions/workflows/msbuild.yml)
+[![Release](https://github.com/llde/xOBSE/actions/workflows/msbuild-relz.yml/badge.svg?branch=main)](https://github.com/llde/xOBSE/actions/workflows/msbuild-relz.yml)
 
 
 
